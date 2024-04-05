@@ -5,6 +5,8 @@ import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import wordanalyticsImg from "@/public/wordanalytics.png";
+import jijiPNG from "@/public/jiji.png";
+
 
 export const links = [
   {
@@ -61,6 +63,13 @@ export const experiencesData = [
 ] as const;
 
 export const projectsData = [
+  {
+    title: "JIJI Clone",
+    description:
+      "clonning the jiji website a popular online marketplace operating primarily in Nigeria. It serves as a platform for buying and selling a wide range of products and services, including electronics, vehicles, real estate, fashion items, home appliances, jobs, and more. ",
+    tags: ["Next", "Javascript", "Node", "bootstap", "firebase"],
+    imageUrl: jijiPNG,
+  },
   {
     title: "Amazon Clone",
     description:
