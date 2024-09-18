@@ -1,11 +1,48 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
-import jijiPNG from "@/public/jiji.png";
+import { FaTelegramPlane } from "react-icons/fa";
+import { FaMoneyBillWave } from "react-icons/fa";
+import { MdFilter1 } from "react-icons/md";
+
+ import jijiPNG from "@/public/jiji.png";
+import algalay from "@/public/algalay.png";
+import aratkilo from "@/public/aratkilo.png";
+import deblo from "@/public/deblo.png";
+import helen from "@/public/helen.png";
+import keldlengerachu from "@/public/keldlengerachu.png";
+import nipleskere from "@/public/nipleskere.png";
+import pante from "@/public/pante.png";
+import sarinaharer from "@/public/sarinaharer.png";
+import yostina from "@/public/yostina.png";
+import nitsuh from "@/public/nitsuh.png";
+import masti from "@/public/masti.png";
+import beti from "@/public/beti.png";
+import saba from "@/public/saba.png";
+import tsirakut from "@/public/tsirakut.png";
+import abeba from "@/public/abeba.png";
+import rahel from "@/public/rahel.png";
+import hana from "@/public/hana.png";
+import selam from "@/public/selam.png";
+import jerry from "@/public/jerry.png";
+import fiker from "@/public/fiker.png";
+import marta from "@/public/marta.png";
+import zewdenesh from "@/public/zewdenesh.png";
+import feven from "@/public/feven.png";
+import soliyana from "@/public/soliyana.png";
+import hiwot from "@/public/hiwot.png";
+import sumeya from "@/public/sumeya.png";
+import kidest from "@/public/kidest.png";
+ 
+import Kiki from "@/public/Kiki.png";
+import Workezeb from "@/public/Workezeb.png";
+import Tigest from "@/public/Tigest.png";
+import Kidi from "@/public/Kidi.png";
+import Tina from "@/public/Tina.png";
+import Habeshawit from "@/public/Habeshawit.png";
+import yostinatwo from "@/public/yostinatwo.png";
+import Habeshawittwo from "@/public/Habeshawittwo.png";
+
+
+
 
 
 export const links = [
@@ -14,19 +51,19 @@ export const links = [
     hash: "#home",
   },
   {
-    name: "About",
+    name: "Rules",
     hash: "#about",
   },
   {
-    name: "Projects",
+    name: "Girls",
     hash: "#projects",
   },
   {
-    name: "Skills",
+    name: "Places",
     hash: "#skills",
   },
   {
-    name: "Experience",
+    name: "Payment",
     hash: "#experience",
   },
   {
@@ -37,81 +74,301 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "addis ababa, Ethiopa",
+    title: "በመጀመሪያ",
+    location: "",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022",
+      "Choose your desired Girl / የሚፈልጉትን ሴት ይምረጡ",
+    icon: React.createElement(MdFilter1),
+    date: "You can take a screenshot",
   },
   {
-    title: "Front-End Developer",
-    location: "addis, FL",
+    title: "በመቀጠል",
+    location: "የአገልግሎት ክፍያ መፈፀም",
     description:
-      "I worked as a front-end developer for 3 months",
-    icon: React.createElement(CgWorkAlt),
-    date: "2023aug - 2023 sep",
+      "በአካልም ሆነ በVideo ከሞዴሎች ጋር ለመውጣትና ስልክ ቁጥር ለመቀበል የመረጡትን ክፍያ በ CBE Account 1000404416198 ማስገባት ",
+    icon: React.createElement(FaMoneyBillWave),
+    date: "",
   },
   {
-    title: "Full-Stack Developer",
-    location: "addis ababa, Ethiopa",
+    title: "በመጨረሻም",
+    location: "መላክ",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React | Node | Express | Javascript | mysql | Java and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2023 sep - present",
+      "ደረሰኙን  በ Telegram Contact me here የሚለውን በመጫን መላክ",
+    icon: React.createElement(FaTelegramPlane),
+    date: "finished",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "JIJI Clone",
+    title: "Samri",
     description:
-      "clonning the jiji website a popular online marketplace operating primarily in Nigeria. It serves as a platform for buying and selling a wide range of products and services, including electronics, vehicles, real estate, fashion items, home appliances, jobs, and more. ",
-    tags: ["Next", "Javascript", "Node", "bootstap", "firebase"],
+      "Age=25, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ayat"],
+    imageUrl: algalay,
+  },
+  {
+    title: "Beti",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ቀበና 🍑🍆"],
     imageUrl: jijiPNG,
   },
   {
-    title: "Amazon Clone",
+    title: "Beza",
     description:
-      "clonning the amazon website with checkout system and login functionality ",
-    tags: ["React", "Javascript", "Node", "bootstap", "mysql"],
-    imageUrl: corpcommentImg,
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ሳሪስ 🍑🍆"],
+    imageUrl: deblo,
   },
   {
-    title: "Registration System",
+    title: "yostina",
     description:
-      "Handle form submission: Implement form submission logic in your component. Use state hooks (useState) to manage form data and handle user input changes. When the user submits the form, you can validate the input and send it to an API endpoint for registration.",
-    tags: ["React", "Javascript", "Node", "bootstap", "mysql"],
-    imageUrl: rmtdevImg,
+    "Age=25, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ፒያሳ 🍑🍆"],
+    imageUrl: yostina,
   },
   {
-    title: "Netflix-clone",
+    title: "sarina",
     description:
-      "Netflix clone including API fetching from the movie database,also it finds a trailer of that movie using npm modules ",
-    tags: ["React", "bootstrap", "Node", "Tailwind"],
-    imageUrl: wordanalyticsImg,
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","መገናኛ 🍑🍆"],
+    imageUrl: sarinaharer,
   },
+  {
+    title: "Hermella",
+    description:
+    "Age=25, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ካዛንቺስ 🍑🍆"],
+    imageUrl: nipleskere,
+  },
+  {
+    title: "melat",
+    description:
+    "She is melat her age is 26, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","መገናኛ 🍑🍆"],
+    imageUrl: pante,
+  },
+  {
+    title: "Meron",
+    description:
+    "Age=26, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ቦሌ 🍑🍆"],
+    imageUrl: keldlengerachu,
+  },
+  {
+    title: "Helen",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ሃያ ሁለት🍑🍆"],
+    imageUrl: helen,
+  },
+  {
+    title: "Hermella",
+    description:
+    "she is hermella she also need a good money to take her out Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","6ኪሎ 🍑🍆"],
+    imageUrl: aratkilo,
+  },
+  {
+    title: "kidest",
+    description:
+    "Age=22, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ሃያ ሁለት 🍑🍆"],
+    imageUrl: kidest,
+  },
+  {
+    title: "sumeya",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ገርጂ 🍑🍆"],
+    imageUrl: sumeya,
+  },
+  {
+    title: "hiwot",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa"," 🍑🍆"],
+    imageUrl: hiwot,
+  },
+  {
+    title: "soliyana",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa"," 🍑🍆"],
+    imageUrl: soliyana,
+  },
+  {
+    title: "feven",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","መብራት ሀይል🍑🍆"],
+    imageUrl: feven,
+  },
+  {
+    title: "zewdenesh",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","አስኮ 🍑🍆"],
+    imageUrl: zewdenesh,
+  },
+  {
+    title: "marta",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ቀበና 🍑🍆"],
+    imageUrl: marta,
+  },
+  {
+    title: "fiker",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ገርጂ 🍑🍆"],
+    imageUrl: fiker,
+  },
+  {
+    title: "jerry",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ሳር ቤት 🍑🍆"],
+    imageUrl: jerry,
+  },
+  {
+    title: "selam",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ካዛንቺስ 🍑🍆"],
+    imageUrl: selam,
+  },
+  {
+    title: "hana",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ጎፋ 🍑🍆"],
+    imageUrl: hana,
+  },
+  {
+    title: "rahel",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ገርጂ 🍑🍆"],
+    imageUrl: rahel,
+  },
+  {
+    title: "abeba",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","አያት 🍑🍆"],
+    imageUrl: abeba,
+  },
+  {
+    title: "Tsihon",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ሰሚት 🍑🍆"],
+    imageUrl: tsirakut,
+  },
+  {
+    title: "saba",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ሃያ ሁለት 🍑🍆"],
+    imageUrl: saba,
+  },
+  {
+    title: "masti",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ቦሌ 🍑🍆"],
+    imageUrl: masti,
+  },
+  {
+    title: "nitsuh",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ሳሪስ 🍑🍆"],
+    imageUrl: nitsuh,
+  },
+  {
+    title: "yostina",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ፒያሳ 🍑🍆"],
+    imageUrl: yostinatwo,
+  },
+  {
+    title: "Kiki",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ፒያሳ 🍑🍆"],
+    imageUrl: Kiki,
+  }, {
+    title: "Workezeb",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ፒያሳ 🍑🍆"],
+    imageUrl: Workezeb,
+  }, {
+    title: "tigest",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ፒያሳ 🍑🍆"],
+    imageUrl: Tigest,
+  }, {
+    title: "Kidi",
+    description:
+    "Age=26, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ፒያሳ 🍑🍆"],
+    imageUrl: Kidi,
+  }, {
+    title: "Tina",
+    description:
+    "Age=23, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ፒያሳ 🍑🍆"],
+    imageUrl: Tina,
+  }, {
+    title: "Habeshawit",
+    description:
+    "Age=22, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ፒያሳ 🍑🍆"],
+    imageUrl: Habeshawit,
+  },   {
+    title: "Habeshawit",
+    description:
+    "Age=22, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ፒያሳ 🍑🍆"],
+    imageUrl: Habeshawittwo,
+  },
+  {
+    title: "beti",
+    description:
+    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ፒያሳ 🍑🍆"],
+    imageUrl: beti,
+  },
+  
 ] as const;
 
 export const skillsData = [
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "Networking",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
-  "bootstrap",
-  "mysql",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
+  "ካዛንቺስ",
+  "አያት",
+  "ሰሚት",
+  "ፒያሳ",
+  "ሃያ ሁለት",
+  "መገናኛ",
+  "ቦሌ",
+  "ሳሪስ",
+  "ገርጂ",
+  "ሳር ቤት",
+  "መብራት ሀይል",
+  "አስኮ",
+  "ቀበና",
   
-  "Database mgmt",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  
-  "graphics",
+  "ቱሉ ዲምቱ",
+  "6ኪሎ",
+  "ወሰን",
+  "ቀጨኔ",
+  "ፒያሳ",
+  "ጎፋ",
+
 ] as const;

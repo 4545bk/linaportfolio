@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
-  const { ref } = useSectionInView("About");
+  const { ref } = useSectionInView("Rules");
 
   return (
     <motion.section
@@ -17,29 +17,58 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      <SectionHeading>About me</SectionHeading>
+      <SectionHeading>Rules{" "}/{" "}ህግ ደምብ</SectionHeading>
       <p className="mb-3">
-      I'm a creative Full Stack Web Developer based in {" "}
-        <span className="font-medium">Ethiopia</span>, I decided to pursue my
-        passion for programming also problem solving. I am learning Software Engineering in a Addis Ababa university and also in coding bootcamp {" "}
-        <span className="font-medium">full-stack web development</span>.{" "} 
-        <span className="italic">In addition to my technical expertise,</span> I have also pursued studies in Economics.<span className="underline">This multidisciplinary approach has allowed me to develop a unique perspective when it comes to  problem-solving.</span>
-        By combining my knowledge of software engineering with  economic principles, I can analyze data, think critically, and make informed decisions that consider both technical feasibility and economic viability.
-        {" "}
+      🔴 በደንብ ይነበብ‼️🔥{" "}<br></br><br></br>
         <span className="font-medium">
-        Full Stack Software Developer | MERN | React | Node | Express | Javascript | Python | Java        </span>
-        . I am also familiar with editing and graphics. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
-        <span className="font-medium">full/part-time position</span> as a Fullstack
-        developer.
+          1️⃣. በሰላምታ ጊዚያችንን አትፍጁ ቀጥታ ወደ ገደለው<br></br><br></br>
+
+2️⃣. ስትጠይቁን ለመች እና የት እንደሆነ ንገሩን<br></br><br></br>
+
+3️⃣.ዋጋ ከሷጋ መጨቃጨቅ መከራከር ቀንሺ ምናምን ማለት ያስቦልካል ‼️<br></br><br></br>
+
+4️⃣. ሹገር አናገናኝም ሹገር ሹገር አትበሉን።  
+ሹገር የሚጠይቅ ይቦለካል❌<br></br><br></br>
+
+5️⃣. ቺኮቹ ቀን ላይ ከ4500 ጀምሮ አዳር ከሆነ ከ5000 ጀምሮ ነው የሚሰሩት<br></br><br></br> 
+
+❌❌ሀይ ፣ ሰላም ፣ ምናምን የሚሉ 
+መልክቶችን አንቀበልም ❌❌ 
+ቀጥታ የምትፈልጉትን ንገሩን<br></br><br></br>
+
+🔴 በኣካል = ከ4500 ብር ጀምሮ ቀን <br></br><br></br>
+                   = ከ5000 ብር ጀምሮ አዳር <br></br><br></br>
+
+🔴 ቪድዮ ሴክስ = 2000 <br></br><br></br>
+
+🔴 ፎን ሴክስ = 1000<br></br><br></br>
+
+🔴 ቻት ሴክስ = 700<br></br><br></br>
+
+6️⃣. ፎቶ ለመምረጥ ስልክ ቁጥር ለመቀበል 1000 ብር መክፈል ግድ ነው እውነተኛ ፈላጊን የምንለይበት መንገድ ነው።  የሚያሾፍ በዝቷል
+<br></br><br></br>
+7️⃣. ፎቶ እና ስልክ ከመቀበላቹ በፊት በ Dashen bank account 1000 ብር / ወይም Cbe ቅድሚያ መክፈል እንዳለባቹ አውቃቹ አናግሩን። ይሄን የምናደርገው እውነተኛ ፈላጊን ከሚያሾፍ ለመለየት ነው። 
+<br></br><br></br>
+8️⃣. የሴቶቹ ክፍያ እንደየቺኮቹ ይለያያል። የመጨረሻው ትንሹ 1500 ብር ነው። ክፍያቸው የሚፈፀመው ከተገናኛቹ በኋላ በእጇ ነው። 
+<br></br><br></br>
+9️⃣. ለጊዜው ሀዋሳ ሻሸመኔ   አዳማ እና አዲስ አበባ ያላቹ ብቻ አናግሩን። ያ ማለት ሌላ ቦታ ሴቶች የሉንም ለጊዜው ማለት ነው። 
+<br></br><br></br>
+
+</span>
+        <span className="font-medium">
+        🔟 </span>
       </p>
 
       <p>
-        <span className="italic">Detail-orientated Developer</span>, adapt at interpreting blueprints,working with others, and meeting production deadlines. Skilled at quickly learning new processes{" "}
-        <span className="font-medium">technologies, and machinery </span>. Self-motivated with strong organizational and time management abilities.  Most importantly, {" "}
-        <span className="font-medium">I Love How I constantly trying to </span> learn new skills to 
-        improve myself and my work.
-      </p>
+        <span className="italic"> ለዛሬ ነው የምፈልጋት ብላቹ  </span>, በቴሌ ብር 1000 ብር ካሽ ከፍላቹ ስልክ ተቀብላቹ። በራሳቹ ምክንያት ሳትደውሉላት ሳታገኟት ብትቀሩ ሌላ ጊዜ ላግኛት ብትሉ እጥፉን ድጋሚ እንደምትከፍሉ እወቁ።  ስለዚህ እርግጠኛ ሆናቹ ጠይቁን። እየቀጠራቹ መጥፋት ነውር ነው።{" "}
+        
+      </p><br></br><br></br><p
+  className="text-xl font-bold border-2 border-yellow-500 p-4 inline-block"
+>
+  CBE Account Number: <strong className="text-2xl">1000404416198</strong>
+</p>
+
+
     </motion.section>
   );
 }

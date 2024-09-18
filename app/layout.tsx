@@ -9,8 +9,8 @@ import ThemeContextProvider from "@/context/theme-context";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Natnael | Personal Portfolio",
-  description: "Natnael is a full-stack developer with 8 years of experience.",
+  title: "Lina Agency",
+  description: "Lina Agency the first ethiopian honest agency",
 };
 
 export default function RootLayout({
