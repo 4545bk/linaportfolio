@@ -1,0 +1,22 @@
+/* Projects.module.css */
+
+@keyframes shine {
+    0% {
+      border-color: rgba(255, 255, 255, 0.3);
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    }
+    50% {
+      border-color: rgba(255, 255, 255, 1);
+      box-shadow: 0 0 12px rgba(255, 255, 255, 1);
+    }
+    100% {
+      border-color: rgba(255, 255, 255, 0.3);
+      box-shadow: 0 0 8px rgba(255, 255, 255, 0.5);
+    }
+  }
+  
+  .animateShine {
+    border-radius: 50%;
+    animation: shine 2s infinite;
+  }
+  
