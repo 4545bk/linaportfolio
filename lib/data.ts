@@ -85,7 +85,7 @@ export const experiencesData = [
     title: "በመቀጠል",
     location: "የአገልግሎት ክፍያ መፈፀም",
     description:
-      "በአካልም ሆነ በVideo ከሞዴሎች ጋር ለመውጣትና ስልክ ቁጥር ለመቀበል የመረጡትን ክፍያ በ CBE Account 1000404416198 ማስገባት ",
+      "በአካልም ሆነ በVideo ከሞዴሎች ጋር ለመውጣትና ስልክ ቁጥር ለመቀበል የመረጡትን ክፍያ በ CBE Account XXXXXXXXXXXX ማስገባት ",
     icon: React.createElement(FaMoneyBillWave),
     date: "",
   },

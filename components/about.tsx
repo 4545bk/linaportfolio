@@ -65,7 +65,7 @@ export default function About() {
       </p><br></br><br></br><p
   className="text-xl font-bold border-2 border-yellow-500 p-4 inline-block"
 >
-  CBE Account Number: <strong className="text-2xl">1000404416198</strong>
+  CBE Account Number: <strong className="text-2xl">XXXXXXXXXXXXXXX</strong>
 </p>
 
 
