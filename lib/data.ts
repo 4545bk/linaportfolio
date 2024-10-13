@@ -32,15 +32,12 @@ import hiwot from "@/public/hiwot.png";
 import sumeya from "@/public/sumeya.png";
 import kidest from "@/public/kidest.png";
  
-import Kiki from "@/public/Kiki.png";
-import Workezeb from "@/public/Workezeb.png";
-import Tigest from "@/public/Tigest.png";
+import Kiki from "@/public/Kiki.png"; 
 import Kidi from "@/public/Kidi.png";
 import Tina from "@/public/Tina.png";
 import Habeshawit from "@/public/Habeshawit.png";
 import yostinatwo from "@/public/yostinatwo.png";
-import Habeshawittwo from "@/public/Habeshawittwo.png";
-
+ 
 
 
 
@@ -302,19 +299,8 @@ export const projectsData = [
     "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
     tags: ["Addis Ababa","ፒያሳ 🍑🍆"],
     imageUrl: Kiki,
-  }, {
-    title: "Workezeb",
-    description:
-    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
-    tags: ["Addis Ababa","ፒያሳ 🍑🍆"],
-    imageUrl: Workezeb,
-  }, {
-    title: "tigest",
-    description:
-    "Age=24, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
-    tags: ["Addis Ababa","ፒያሳ 🍑🍆"],
-    imageUrl: Tigest,
-  }, {
+  },  
+   {
     title: "Kidi",
     description:
     "Age=26, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
@@ -332,13 +318,7 @@ export const projectsData = [
     "Age=22, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
     tags: ["Addis Ababa","ፒያሳ 🍑🍆"],
     imageUrl: Habeshawit,
-  },   {
-    title: "Habeshawit",
-    description:
-    "Age=22, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
-    tags: ["Addis Ababa","ፒያሳ 🍑🍆"],
-    imageUrl: Habeshawittwo,
-  },
+  },   
   {
     title: "beti",
     description:
