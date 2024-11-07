@@ -98,11 +98,11 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Samri",
+    title: "Meron",
     description:
-      "Age=25, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
-    tags: ["Addis Ababa","ayat"],
-    imageUrl: algalay,
+    "Age=26, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ቦሌ 🍑🍆"],
+    imageUrl: keldlengerachu,
   },
   {
     title: "Beti",
@@ -147,11 +147,11 @@ export const projectsData = [
     imageUrl: pante,
   },
   {
-    title: "Meron",
+    title: "Samri",
     description:
-    "Age=26, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
-    tags: ["Addis Ababa","ቦሌ 🍑🍆"],
-    imageUrl: keldlengerachu,
+      "Age=25, Gender=female Sex in person (በአካል)✅ Chat Sex✅   Video Call Sex✅ Phone Sex✅",
+    tags: ["Addis Ababa","ayat"],
+    imageUrl: algalay,
   },
   {
     title: "Helen",

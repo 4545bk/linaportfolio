@@ -1,19 +1,34 @@
 "use client";
 
 import Image from "next/image";
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { BsArrowRight, BsLinkedin } from "react-icons/bs";
-import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare } from "react-icons/fa";
+import { BsArrowRight } from "react-icons/bs";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import logo from "./logo/logo.jpg"
+import { fetchHomeData, processWelcomeMessage } from "@/services/home"; // Import your service functions
+import logo from "./logo/logo.jpg";
 
 export default function Intro() {
   const { ref } = useSectionInView("Home", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
+  const [welcomeMessage, setWelcomeMessage] = useState("Loading...");
+
+  useEffect(() => {
+    const getData = async () => {
+      try {
+        const data = await fetchHomeData();
+        const processedMessage = processWelcomeMessage(data.message); // Adjust based on your API response structure
+        setWelcomeMessage(processedMessage);
+      } catch (error) {
+        console.error('Failed to load home data', error);
+        setWelcomeMessage("Welcome to Lina Agency!"); // Fallback message
+      }
+    };
+
+    getData();
+  }, []);
 
   return (
     <section
@@ -63,8 +78,7 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hello, This is Lina Agency🙌🙌</span> {" "}
-        <span className="font-bold">Wellcome</span> 
+        <span className="font-bold">{welcomeMessage}</span>
         <span className="underline"></span>.
       </motion.h1>
 
@@ -87,8 +101,6 @@ export default function Intro() {
           Contact me here{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
-
-        
       </motion.div>
     </section>
   );
